@@ -1,0 +1,13 @@
+C:\Users\bakkf\Desktop\Monsieur C#\Partie - projet\En prod\bin\Debug\netcoreapp3.1\En prod.exe
+C:\Users\bakkf\Desktop\Monsieur C#\Partie - projet\En prod\bin\Debug\netcoreapp3.1\En prod.deps.json
+C:\Users\bakkf\Desktop\Monsieur C#\Partie - projet\En prod\bin\Debug\netcoreapp3.1\En prod.runtimeconfig.json
+C:\Users\bakkf\Desktop\Monsieur C#\Partie - projet\En prod\bin\Debug\netcoreapp3.1\En prod.runtimeconfig.dev.json
+C:\Users\bakkf\Desktop\Monsieur C#\Partie - projet\En prod\bin\Debug\netcoreapp3.1\En prod.dll
+C:\Users\bakkf\Desktop\Monsieur C#\Partie - projet\En prod\bin\Debug\netcoreapp3.1\En prod.pdb
+C:\Users\bakkf\Desktop\Monsieur C#\Partie - projet\En prod\obj\Debug\netcoreapp3.1\En prod.csprojAssemblyReference.cache
+C:\Users\bakkf\Desktop\Monsieur C#\Partie - projet\En prod\obj\Debug\netcoreapp3.1\En prod.AssemblyInfoInputs.cache
+C:\Users\bakkf\Desktop\Monsieur C#\Partie - projet\En prod\obj\Debug\netcoreapp3.1\En prod.AssemblyInfo.cs
+C:\Users\bakkf\Desktop\Monsieur C#\Partie - projet\En prod\obj\Debug\netcoreapp3.1\En prod.csproj.CoreCompileInputs.cache
+C:\Users\bakkf\Desktop\Monsieur C#\Partie - projet\En prod\obj\Debug\netcoreapp3.1\En prod.dll
+C:\Users\bakkf\Desktop\Monsieur C#\Partie - projet\En prod\obj\Debug\netcoreapp3.1\En prod.pdb
+C:\Users\bakkf\Desktop\Monsieur C#\Partie - projet\En prod\obj\Debug\netcoreapp3.1\En prod.genruntimeconfig.cache
