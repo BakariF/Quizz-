@@ -1,21 +1,25 @@
 ﻿using System;
 using System.Threading;
 using System.Collections.Generic;
-namespace test_unitaire
+
+namespace test
 {
     class Program
     {
         static void Main(string[] args)
+
         {
-            Console.WriteLine("     OO       OOOOOOO           O       O     OOOOOOO     OO    OO     OO   OO ");
-            Console.WriteLine("     OO       OO   OO           OOO   OOO     OO   OO     OOO   OO     OO   OO ");
-            Console.WriteLine("     OO       OO   OO           OOO   OOO     OO   OO     OOO   OO     OO   OO ");
-            Console.WriteLine("     OO       OOOOOOO           OO  O  OO     OOOOOOO     OO OO OO     OO   OO ");
-            Console.WriteLine("     OO       OO   OO           OO     OO     OO   OO     OO   OOO     OO   OO ");
-            Console.WriteLine("     OO       OO   OO           OO     OO     OO   OO     OO    OO     OO   OO ");
-            Console.WriteLine("     OOOOOOO  OO   OO           OO     OO     OO   OO     OO    OO     OOOOOOO ");
-            Thread.Sleep(2000);
-            Console.WriteLine("\r\n");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+
+            Typewrite("     OO       OOOOOOO           O       O     OOOOOOO     OO    OO     OO   OO \r\n" +
+                      "     OO       OO   OO           OOO   OOO     OO   OO     OOO   OO     OO   OO \r\n" +
+                      "     OO       OO   OO           OOO   OOO     OO   OO     OOO   OO     OO   OO \r\n" +
+                      "     OO       OOOOOOO           OO  O  OO     OOOOOOO     OO OO OO     OO   OO \r\n" +
+                      "     OO       OO   OO           OO     OO     OO   OO     OO   OOO     OO   OO \r\n" +
+                      "     OO       OO   OO           OO     OO     OO   OO     OO    OO     OO   OO \r\n" +
+                      "     OOOOOOO  OO   OO           OO     OO     OO   OO     OO    OO     OOOOOOO ");
+
+            Console.ReadKey();
 
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("====================================================================================");
@@ -29,6 +33,24 @@ namespace test_unitaire
                 "                                          \r\n" +
                 "\r\n" +
                 "                                 ...Bonne CHANCE...");
+
+
+            Quiz();
+
+        }
+        static void Typewrite(string message)
+        {
+            for (int i = 0; i < message.Length; i++)
+            {
+                Console.Write(message[i]);
+                System.Threading.Thread.Sleep(5);
+
+            }
+        }
+
+        static void Quiz()
+        {
+
             int score = 0;
             int Nbquestion = 0;
 
@@ -69,7 +91,8 @@ namespace test_unitaire
                     {
                         Console.WriteLine("mauvaise réponse ");
                     }
-
+                    Console.WriteLine();
+                    Console.WriteLine();
                     Nbquestion++;
 
                 }
@@ -79,16 +102,20 @@ namespace test_unitaire
             if (score <= 3)
             {
                 Console.WriteLine("Vous êtes très nul quand même");
-            } else if (score > 3 && score <= 5)
+            }
+            else if (score > 3 && score <= 5)
             {
                 Console.WriteLine("C'est pas grave, vous faites du C# depuis une semaine et demie !");
-            } else  if (score > 5 && score <= 7)
+            }
+            else if (score > 5 && score <= 7)
             {
                 Console.WriteLine("là on discute !");
-            } else if (score > 7 && score <= 9)
+            }
+            else if (score > 7 && score <= 9)
             {
                 Console.WriteLine("Félicitations vous êtes admis");
-            } else if (score == 10)
+            }
+            else if (score == 10)
             {
                 Console.WriteLine("La base virale VPS a été mise à jour.");
             }
